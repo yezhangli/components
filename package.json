@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/yezhangli/components/issues"
   },
-  "homepage": "https://github.com/yezhangli/components#readme"
+  "homepage": "https://github.com/yezhangli/components#readme",
+  "dependencies": {
+    "vue": "^2.5.16"
+  }
 }

@@ -1,5 +1,5 @@
 <template>
-    <button class="g-button" :class="{[`icon-${iconPositon}`]:true}" @click="$emit('click')">
+    <button class="g-button" :class="{[`icon-${iconPosition}`]:true}" @click="$emit('click')">
         <g-icon class="loading icon" v-if="loading" name="loading"></g-icon>
         <g-icon v-if="icon && !loading" class="icon" :name="icon"></g-icon>
         <div class="content">
@@ -15,7 +15,7 @@
                 type:Boolean,
                 default:false
             },
-            iconPositon:{
+            iconPosition:{
                 type:String,
                 default:'left',
                 validator(value){

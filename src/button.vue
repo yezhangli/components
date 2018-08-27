@@ -42,13 +42,10 @@ import Icon from './icon'
         border-radius: var(--border-radius);
         border:1px solid var( --border-color);
         background: var(--button-bg);
-<<<<<<< HEAD
-=======
         display: inline-flex;
         align-items: center;
         justify-content: center;
         vertical-align: top;
->>>>>>> 2830ff27693a3c2d678dec2318a7c82790215909
         &:hover{
             border-color:var(--border-color-hover) ;
         }
@@ -58,8 +55,6 @@ import Icon from './icon'
         &:focus{
             outline:none;
         }
-<<<<<<< HEAD
-=======
         >.content{
             order:2;
         }
@@ -80,7 +75,6 @@ import Icon from './icon'
         .loading{
             animation: spin 3s infinite linear;
         }
->>>>>>> 2830ff27693a3c2d678dec2318a7c82790215909
     }
 
 </style>

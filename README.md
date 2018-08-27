@@ -1,12 +1,16 @@
 #VUE UI 组件
 
 ##介绍
-
+这是我在学习vue过程中写的一个组件库
 ##开始使用
 1.安装
 使用本框架前，请在css中开启border-box
- box-sizing: border-box;
-
+...
+*,*::before,*::after{box-sizing: border-box;}
+...
+还需要设置默认颜色等变量，后续会更改为scss变量
+...
+IE8及以上浏览器都支持该样式
 ##文档
 
 ##提问

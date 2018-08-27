@@ -1,10 +1,14 @@
 {
-  "name": "gulu",
-  "version": "0.0.1",
+  "name": "yezhangli123",
+  "version": "0.0.3",
   "description": "这是一个UI框架",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+<<<<<<< HEAD
     "start": "parcel index.html --no-cache",
+=======
+    "start": "./node_modules/.bin/parcel index.html --no-cache",
+>>>>>>> 2830ff27693a3c2d678dec2318a7c82790215909
     "dev-test": "parcel watch test/* --no-cache & karma start",
     "test": "parcel build test/* --no-cache --no-minify && karma start --single-run"
   },
